@@ -1,0 +1,204 @@
+html, body {
+  }
+
+/*Header style*/
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
+}
+
+
+.logo {
+  display: inline-flex;
+  width: 100px;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  color: MediumAquamarine;
+}
+
+/* Header */
+nav {
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+  word-spacing: 20px;
+  }
+
+nav a {
+  color: black;
+}
+
+/*Main body*/
+
+.main {
+  display: flex;
+}
+
+
+/* Main story header*/
+h2 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+
+h4 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid;
+}
+
+.row1 {
+  border: 1px solid;
+
+}
+
+.row2 {
+  width: 630px;
+  height: auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.story2 {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.story3 {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.img-main {
+  display: flex;
+  background-image: url("C:/Projects/MyTimes/resources/img-story-main.png");
+  height: 300px;
+  width: 630px;
+}
+
+
+.img2 {
+  display: flex;
+  background-image: url("C:/Projects/MyTimes/resources/img-story-2.png");
+  margin: 10px;
+  height: auto;
+  width: auto;
+}
+
+.img3 {
+  display: flex;
+  background-image: url("C:/Projects/MyTimes/resources/img-story-3.png");
+  margin: 10px;
+  height: auto;
+  width: auto;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid;
+  margin: 20px;
+}
+
+}
+.row4 {
+  border: 1px solid;
+}
+
+.row5 {
+  border: 1px solid;
+}
+
+.img1 {
+  display: flex;
+  background-image: url("C:/Projects/MyTimes/resources/img-story-1.png");
+  height: 300px;
+  width: 300px;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 10px;
+}
+
+/*Header BITES*/
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row6 {
+
+
+}
+
+.row7 {
+
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: WhiteSmoke;
+  }
+
+.bites a {
+
+  border-bottom: 1px solid;
+  display: flex;
+  text-align: left;
+  padding: 10px 20px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
